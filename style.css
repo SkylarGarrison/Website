@@ -1,0 +1,81 @@
+/* styling the header so that the background is a little different from the body, it's a bit more visually appealing than a background of the same color */
+header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: dimgray;
+}
+/* styling the header text so that it fits well with the background color; not too different from the rest of the page */
+header h1, h3 {
+  text-align: center;
+  font-family: Georgia;
+  color:gainsboro;
+}
+
+header h3 {
+  font-size: 18px;
+}
+/* I want to make sure the containers are centered in the page and aligned with the image */
+article {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+/* grouped selectors to cut down on lines of code */
+p, ul, ol {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+  color: blue;
+  font-family: Georgia;
+}
+/* aside from styling the links using pseudo-classes, I'd also like to change how the HTML is displayed */
+a {
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* styling the nav page so that it appears in the center of the page */
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+}
+
+nav a {
+  margin-right: 40px;
+}
+
+img {
+  height: 300px;
+}
+
+body{
+  background-color: whitesmoke;
+}
+/* styling the hr as that it is a bit more prominent in appearance throughout the web page */
+hr {
+  align: center;
+  border: 1px solid gray;
+}
+/* Will help to center the nav panel just a bit more*/
+nav a:last-of-type {
+  margin-right: 20px;
+}
+
+/* pseudo-classes to style the links in their different states*/
+a:link {color: black;}
+a:visited {color: gray;}
+a:hover {color: lightblue;}
+a:active {color:lightgray;}
